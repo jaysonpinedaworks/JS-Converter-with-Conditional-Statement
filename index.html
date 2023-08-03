@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Converter</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <script defer src="script/main.js"></script>
+
+    <form action="#" method="#" class="content">
+      <div class="headers">
+        <i class="fa-solid fa-ruler fa-beat fa-2xl"></i>
+      </div>
+      <div class="logo">Converter</div>
+      <label for="firstLenght">Enter your Measurement</label>
+      <input type="number" name="measure" id="measure" />
+
+      <div class="selectOn">
+        <select name="MeasureOne" id="measureOne">
+          <option ="" disable selected hidden>Select Unit</option>
+          <option>Kilometer</option>
+          <option>Meter</option>
+          <option>Centimeter</option>
+        </select>
+        <span><i class="fa-solid fa-right-long fa-beat fa-lg"></i></span>
+        <select name="measureTwo" id="measureTwo">
+          <option ="" disable selected hidden>Select Unit</option>
+          <option>Kilometer</option>
+          <option>Meter</option>
+          <option>Centimeter</option>
+        </select>
+      </div>
+      <div>
+        <input
+          type="button"
+          value="Calculate"
+          name="calc"
+          id="calc"
+          onclick="mycalculate()"
+          class="button"
+        />
+      </div>
+      <div>
+        <input
+          type="Reset"
+          value="Reset"
+          name="calc"
+          class="button1"
+          onclick="Myreset()"
+        />
+      </div>
+      <div class="ansResult"><p id="displayResult"></p></div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/3c4a05636b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
