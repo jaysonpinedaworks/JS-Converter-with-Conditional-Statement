@@ -18,7 +18,7 @@ function mycalculate(){
         displayResult.innerHTML = calc;
         ansRes.style.backgroundColor = "none";
         ansRes.style.width = "220px";
-        ansRes.style.boxShadow = "0px 1px 8px #000000";
+        ansRes.style.boxShadow = "inset 0px 1px 8px #F3BD7A";
 
         
     }
